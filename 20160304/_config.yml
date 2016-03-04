@@ -1,0 +1,61 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+markdown: kramdown
+# Site settings
+title: "Liu Fengting"
+description: > # this means to ignore newlines until "email:"
+   I am an iOS programmer. This my personal blog.
+   I just set up this page, and I havn't got time to wirte much.
+
+email: wo157121900@me.com
+#blog logo
+logo: "/assets/images/logo.jpg"
+# blog cover
+cover: "/assets/images/front_page_image.jpg"
+
+name: 'Liu Fengting'
+author: 'Liu Fengting'
+author_image: "/assets/images/icon_image.jpg"
+
+paginate:	5
+
+url: "http://liufengting.github.io" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@liufengting'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/liufengting
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+ # - icon:	facebook
+ #   url:	https://www.facebook.com/profile.php?id=100004406857691
+ #   desc: Connect with me facebook
+ #   share_url: https://www.facebook.com/sharer.php
+ #   share_title: ?t=
+ #   share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/liufengting
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
