@@ -1,0 +1,21 @@
+# Site settings
+title: 'LiuFengting'
+header-img: img/macbookpro.jpg
+email: wo157121900@me.com
+copyright_name: LiuFengting
+description: "I am an iOS programmer. I live in Wuxi, China."
+baseurl: ""
+url: "http://liufengting.github.io"
+twitter_username: liufengting
+github_username:  liufengting
+facebook_username:  liufengting
+email_username:  wo157121900@me.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
